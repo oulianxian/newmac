@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping(value = "/meAndCat", method = RequestMethod.GET)
 public class MeAndCatController extends BaseController {
-
+    //@Autowired
+    //private DiscoveryClient client;
     @Autowired
     private MeAndCatServer meAndCatServer;
 
